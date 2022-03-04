@@ -321,7 +321,8 @@ let kss = (function () {
             return
         }
         that.isScreenshot = true
-        html2canvas(document.body, {useCORS:true, scrollY:200})
+        // html2canvas(document.body, {useCORS:true, scrollY:200})
+        html2canvas(document.body, {useCORS:true})
             .then((canvas) => {
                 that.kss = canvas
                 that.scrollTop = document.documentElement.scrollTop
