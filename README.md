@@ -1,6 +1,8 @@
 kscreenshot
 ===========
 
+## 更新：zxkj专用，更新了html2canvas包
+
 # 由于该插件还存在问题，不推荐在项目中使用该插件。
 
 ![](https://github.com/kejiacheng/img/blob/master/kscreenshot/screenshot1.gif)
